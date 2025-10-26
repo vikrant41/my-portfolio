@@ -20,7 +20,16 @@ body {
   background-color: var(--deep-space);
   font-family: 'Share Tech Mono', monospace;
   overflow-x: hidden;
+
+  /* 🚀 Custom rocket cursor */
+  cursor: url('/rocket-cursor.png') 16 16, auto;
 }
+
+/* If you want to use a default cursor on buttons or inputs, uncomment this:
+button, a, input, textarea {
+  cursor: pointer;
+}
+*/
 
 .font-orbitron {
   font-family: 'Orbitron', sans-serif;
@@ -47,11 +56,15 @@ body {
 }
 
 .neon-text-blue {
-  text-shadow: 0 0 5px rgba(0, 191, 255, 0.7), 0 0 10px rgba(0, 191, 255, 0.5), 0 0 20px rgba(0, 191, 255, 0.3);
+  text-shadow: 0 0 5px rgba(0, 191, 255, 0.7),
+               0 0 10px rgba(0, 191, 255, 0.5),
+               0 0 20px rgba(0, 191, 255, 0.3);
 }
 
 .neon-text-yellow {
-  text-shadow: 0 0 5px rgba(255, 215, 0, 0.7), 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.3);
+  text-shadow: 0 0 5px rgba(255, 215, 0, 0.7),
+               0 0 10px rgba(255, 215, 0, 0.5),
+               0 0 20px rgba(255, 215, 0, 0.3);
 }
 
 .typing-cursor::after {
