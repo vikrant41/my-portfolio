@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vite --host :: --port 3000",
-    "build": "node tools/generate-llms.js || true && vite build",
+    "build": "vite build",
     "preview": "vite preview --host :: --port 3000"
   },
   "dependencies": {
@@ -28,9 +28,8 @@
     "react-helmet": "^6.1.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7",
-    "react-icons": "^5.2.1"
+    "react-icons": "^5.2.1",
     "react-hot-toast": "^2.4.1"
-
   },
   "devDependencies": {
     "@babel/generator": "^7.27.0",
