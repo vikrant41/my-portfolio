@@ -12,6 +12,7 @@ import Experience from '@/components/Experience';
 import Education from '@/components/Education';
 import { Toaster } from 'react-hot-toast';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import WhatsAppFloat from '@/components/WhatsAppFloat'; // ✅ Added import
 
 function App() {
   return (
@@ -43,7 +44,11 @@ function App() {
           <Contact />
         </main>
 
+        {/* Toast notifications */}
         <Toaster />
+
+        {/* ✅ WhatsApp Floating Button */}
+        <WhatsAppFloat />
       </div>
     </ParallaxProvider>
   );
