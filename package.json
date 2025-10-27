@@ -29,6 +29,8 @@
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7",
     "react-icons": "^5.2.1"
+    "react-hot-toast": "^2.4.1"
+
   },
   "devDependencies": {
     "@babel/generator": "^7.27.0",
