@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppFloat = () => {
-  const phoneNumber = "919876543210"; // Replace with your number
+  const phoneNumber = "919913075152"; // Replace with your number
   const message = "Hi Vikrant! I visited your portfolio and want to connect.";
 
   return (
